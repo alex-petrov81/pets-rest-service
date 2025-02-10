@@ -1,0 +1,11 @@
+#server:
+#        address: 192.168.1.100
+---
+spring:
+        profiles: development
+        jackson:
+                default-property-inclusion: always
+                #property-naming-strategy: SNAKE_CASE
+                dateFormat: yyyy-MM-dd'T'HH:mm:ss.SSSZ
+server:
+        address: 127.0.0.1
